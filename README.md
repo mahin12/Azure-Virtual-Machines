@@ -59,4 +59,42 @@ If you don’t have an account yet, create one here. With an Azure free account,
 
   </details>
 
+<summary> 4. Inbound Security Rule Configuration: </summary>
+
+When it comes to securing your Azure Virtual Machines, Network Security Groups (NSGs) play a crucial role. Let’s break down the steps for configuring inbound security rules:
+ 
+  - **Navigate to the Network Security Group (NSG):** In the Azure portal, search for 'Network Security Groups' in the search bar at the top. Once there, select the NSG associated with the VM.
+  
+  - **Create an inbound security rule:** Inside the NSG, you'll find a section for 'Inbound security rules'. This is where we control what kind of traffic is allowed to reach our VM. Click on 'Add' to create a new rule.
+    
+  - **Configure the rule:** We'll be prompted to input some details about our new rule.
+  
+  - **Source:** This defines where the incoming traffic is coming from. We can set this to ```Any``` to allow traffic from any location.
+  
+  - **Source port ranges:** This specifies the ports on the source (the computer initiating the connection) that are allowed. Again, we can set this to ```*``` or ```Any``` to allow all ports.
+
+  - **Destination:** This defines where the traffic is going to. Since we want the traffic to reach our VM, we can set this to ```Any```.
+  
+  - **Destination port ranges:** This specifies the ports on our VM that are allowed to receive traffic. We can set this to ```*``` or ```Any``` to open all ports.
+    
+  <img width="588" alt="Screenshot 2024-05-22 at 11 43 51 AM" src="https://github.com/mahin12/Azure-Virtual-Machines/assets/27288616/8025b447-716f-4d0a-8ac4-ff4abdbba4eb">
+
+  - **Priority:** Setting priorities in Network Security Groups (NSGs) is an essential step. The priority determines the order in which rules are applied. Rules with lower priority numbers are processed before rules with higher priority numbers because the lower the number, the higher the priority. For the purpose of this lab, I set the priority to ```300``` to ensure that this honeypot functions as intended!
+
+  - **Action:** We'll set this to ```Allow```, which means that traffic matching this rule will be allowed to reach our VM. 
+  
+
+  
+  - **Review & Create:** After i've input and configured all the details we need for this inbound rule, click 'Add' to create the rule. e
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+</details>
+
 
