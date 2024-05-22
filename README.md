@@ -59,6 +59,9 @@ If you don’t have an account yet, create one here. With an Azure free account,
 
   </details>
 
+<details close> 
+
+
 <summary> 4. Inbound Security Rule Configuration: </summary>
 
 When it comes to securing your Azure Virtual Machines, Network Security Groups (NSGs) play a crucial role. Let’s break down the steps for configuring inbound security rules:
