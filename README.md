@@ -27,7 +27,6 @@ If you don’t have an account yet, create one here. With an Azure free account,
 
 </details>
 
-<details close> 
 
 
 <summary> 3. Configure the VM settings: </summary>
@@ -58,7 +57,6 @@ If you don’t have an account yet, create one here. With an Azure free account,
 
   </details>
 
-<details close> 
 
 
 <summary> 4. Inbound Security Rule Configuration: </summary>
