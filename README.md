@@ -20,3 +20,15 @@ If you don’t have an account yet, create one here. With an Azure free account,
   **Azure Portal Home**
 
 <img width="1280" alt="Screenshot 2024-05-16 at 8 01 39 PM" src="https://github.com/mahin12/Azure-Virtual-Machines/assets/27288616/99a83e57-b10a-44f3-818b-c17b14453508">
+
+- Click on 'Create', then 'Virtual machine'. This is where we'll set up our new VM!
+  
+<img width="1280" alt="Screenshot 2024-05-21 at 8 48 25 PM" src="https://github.com/mahin12/Azure-Virtual-Machines/assets/27288616/763f3d03-9e60-4b33-bf4d-8bc1f0a7fe3a">
+
+
+</details>
+  
+<details close> 
+
+
+<summary> 3. Configure the VM settings: </summary>
