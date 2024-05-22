@@ -27,8 +27,36 @@ If you don’t have an account yet, create one here. With an Azure free account,
 
 
 </details>
-  
+
 <details close> 
 
 
 <summary> 3. Configure the VM settings: </summary>
+
+  
+  - **Subscription and resource group:** Let’s proceed by selecting the Azure subscription and resource group (Which is way to group and manage resources in Azure!). For the purpose of the project, I already created created a resource group called ```RG-Mahin-Lab```
+
+
+<img width="1280" alt="Screenshot 2024-05-22 at 10 55 46 AM" src="https://github.com/mahin12/Azure-Virtual-Machines/assets/27288616/4a0da8e2-8f25-423d-949e-a44c93d31a44">
+
+
+  
+  - **Virtual Machine Name:** Now, I am going to name this VM, ```windows-vm```, which is necessary.
+  
+  <img width="903" alt="Screenshot 2024-05-22 at 11 03 11 AM" src="https://github.com/mahin12/Azure-Virtual-Machines/assets/27288616/5dc69308-b17b-4ec1-b22c-4387b8851d53">
+
+
+  - **Region:** I am going to choose the region, ```(US) East US 2```
+  
+  - **Image:** Now let's select ```Windows 10 Pro, version 21H2 - x64 Gen2```
+  
+  
+  <img width="1271" alt="Screenshot 2024-05-22 at 10 52 20 AM" src="https://github.com/mahin12/Azure-Virtual-Machines/assets/27288616/0828c934-1ab8-4721-a048-fbd9120c0bc3">
+
+  - **Networking**: When creating the virtual network, we will be leaving it to the default settings. For the purpose of this lab, I called mine ```Mahin-VNet```.
+  
+
+
+  </details>
+
+
