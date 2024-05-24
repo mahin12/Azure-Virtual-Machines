@@ -86,7 +86,11 @@ When it comes to securing your Azure Virtual Machines, Network Security Groups (
 
   
   - **Review & Create:** After i've input and configured all the details we need for this inbound rule, click 'Add' to create the rule. e
- 
+
+
+# Conclusion
+
+# By setting up our virtual machines (VMs) and establishing open inbound security rules, we're effectively leaving our VM's entrance unguarded. Typically, this isn't a practice you'd employ in a genuine production setting due to the high risk of attack it presents. Yet, within the framework of our honeynet, this is precisely the behavior we desire. It enables us to lure in potential attackers and monitor their behavior within a managed setting.
  
  
  
