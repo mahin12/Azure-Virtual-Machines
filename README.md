@@ -12,6 +12,7 @@ Log in using your existing Azure account credentials.
 If you don’t have an account yet, create one here. With an Azure free account, you’ll get 12 months of free services, access to over 40 services that are always free, and a $200 credit to explore additional services within 30 days. It’s a great way to get started with Azure! 😊🔐🌐
 
 
+
 <summary> 2. Create a virtual machine: </summary>
 
 - After you log in to the Azure portal, navigate to the 'Virtual machines' section. 
@@ -26,6 +27,7 @@ If you don’t have an account yet, create one here. With an Azure free account,
 
 
 </details>
+<details close>
 
 
 
@@ -58,6 +60,10 @@ If you don’t have an account yet, create one here. With an Azure free account,
   </details>
 
 
+  
+<details close>
+
+
 
 <summary> 4. Inbound Security Rule Configuration: </summary>
 
@@ -87,10 +93,11 @@ When it comes to securing your Azure Virtual Machines, Network Security Groups (
   
   - **Review & Create:** After i've input and configured all the details we need for this inbound rule, click 'Add' to create the rule. e
 
-
+  </details>
+  
 # Conclusion
 
-# By setting up our virtual machines (VMs) and establishing open inbound security rules, we're effectively leaving our VM's entrance unguarded. Typically, this isn't a practice you'd employ in a genuine production setting due to the high risk of attack it presents. Yet, within the framework of our honeynet, this is precisely the behavior we desire. It enables us to lure in potential attackers and monitor their behavior within a managed setting.
+### By setting up our virtual machines (VMs) and establishing open inbound security rules, we're effectively leaving our VM's entrance unguarded. Typically, this isn't a practice you'd employ in a genuine production setting due to the high risk of attack it presents. Yet, within the framework of our honeynet, this is precisely the behavior we desire. It enables us to lure in potential attackers and monitor their behavior within a managed setting.
  
  
  
